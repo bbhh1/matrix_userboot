@@ -52,7 +52,7 @@ async def _(event):
     elif input_str == "text":
         as_text = True
     catevent = await edit_or_reply(
-        event, " ⌔︙** يتم حساب سرعة الانترنت الرجاء الانlتظار **"
+        event, " ⌔︙** يتم حساب سرعة الانترنت الرجاء الانتظار **"
     )
     start = time()
     s = speedtest.Speedtest()

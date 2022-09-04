@@ -73,7 +73,7 @@ async def amireallyalive(event):
 
 temp = """{ALIVE_TEXT}
 **‎{EMOJI}‌‎𝑛𝑎𝑚𝑒 𖠄 {mention}** ٫
-**‌‎{EMOJI}‌‎𝒑𝒚𝒕𝒉𝒐𝒏 𖠄 {pyver}** ٫
+**‌‎{EMOJI}‌‎𝑝𝑦𝑡ℎ𝑜𝑛 𖠄 {pyver}** ٫
 **‌‎{EMOJI}‌‎𝑚𝑎𝑡𝑟𝑖𝑥 𖠄 {telever}** ٫
 **‌‎{EMOJI}‌‎𝑢𝑝𝑡𝑖𝑚𝑒 𖠄 {uptime}** ٫
 ‌‎**{EMOJI}‌‎‌‎𝑝𝑖𝑛𝑔 𖠄 {ping}** ٫

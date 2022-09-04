@@ -38,7 +38,7 @@ async def start(event):
             buttons=[
                                      [Button.inline("عرض المستخدمين 📬", data="users"), Button.inline(
                                          "اوامر البـوت ⚒️", data="gibcmd")],
-                                     [Button.url("المطـور 🔗", "https://t.me/lMl10l"), Button.inline(
+                                     [Button.url("المطـور 🔗", "https://t.me/Zbbbbb"), Button.inline(
                                          "اوامر الزغـرفة", data="rozzag")],
 
                                  ])

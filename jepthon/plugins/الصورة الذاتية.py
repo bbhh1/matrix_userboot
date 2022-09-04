@@ -3,7 +3,7 @@ from jepthon import jepiq
 from ..Config import Config
 from ..sql_helper.globals import gvarstatus
 
-Jepthon_CMD = Config.SCPIC_CMD or "ذاتية"
+Jepthon_CMD = Config.SCPIC_CMD or "احا"
 @jepiq.on(admin_cmd(pattern=f"{Jepthon_CMD}"))
 async def dato(event):
     if not event.is_reply:
@@ -16,8 +16,8 @@ async def dato(event):
         pic,
         caption=f"""
 -تـم جـلب الصـورة بنجـاح ✅
-- CH: @Jepthon
-- Dev: @lMl10l
+- CH: @VV744
+- Dev: @Zbbbbb
   """,
     )
-    await event.edit(" 🙂❤️ ")
+    await event.edit(" 🥺♥ ")

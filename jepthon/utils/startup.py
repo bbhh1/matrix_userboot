@@ -241,7 +241,7 @@ async def verifyLoggerGroup():
             )
     else:
         descript = "- عزيزي المستخدم هذه هي مجموعه الاشعارات يرجى عدم حذفها  - @VV744"
-        photobt = await jepiq.upload_file(file="JepIQ/razan/resources/start/IMG_20220902_184857_834.jpg")
+        photobt = await jepiq.upload_file(file="JepIQ/razan/resources/start/IMG_20220905_203827_263.jpg")
         _, groupid = await create_supergroup(
             "مجموعة اشعارات ماتركس ", jepiq, Config.TG_BOT_USERNAME, descript, photobt
         )

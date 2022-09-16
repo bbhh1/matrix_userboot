@@ -1,5 +1,5 @@
-# By Reda for Jepthon
-# Tel: @rd0r0
+# By Reda for matrix
+# Tel: @Zbbbbb
 # شعندك داخل للملف تريد تخمطة ههههههههه اخمط ونسبة لنفسك ماوصيك :*
 from jepthon import jepiq
 import asyncio
@@ -26,19 +26,6 @@ async def menall(event):
         ))
     except UserNotParticipantError:
         is_admin = False
-    else:
-        if (
-          isinstance(
-            partici_.participant,
-            (
-              ChannelParticipantAdmin,
-              ChannelParticipantCreator
-            )
-          )
-        ):
-          is_admin = True
-    if not is_admin:
-        return await event.reply("**⌯︙يجب ان تكون مشرف في المجموعة **")
     spam_chats.append(chat_id)
     usrnum = 0
     usrtxt = ''

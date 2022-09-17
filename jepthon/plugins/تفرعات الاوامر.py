@@ -1,6 +1,6 @@
 # WRITE  BY @lMl10l
-# PLUGIN FOR JepThon
-# @JepThon
+# PLUGIN لـ VV744
+جيبثون
 
 import random
 from telethon import events
@@ -494,7 +494,7 @@ async def _(event):
 async def _(event):
      if not event.text[0].isalpha() and event.text[0] not in ("/", "#", "@", "!"):
         await event.edit(
-        "شرح اوامر كوكل :\n➖➖➖➖➖➖➖➖➖➖➖➖➖\n⌯︙اختر احدى هذه الاوامر\n\n- ( `.صور +  عدد الصور + نص` )\nللحصول على صور من متصفح كوكل بكتابة الامر وعدد الصور الحد 10 واسم النص\n\n➖➖➖➖➖➖➖➖➖➖➖➖➖\n⌔︙CH : @JepThon"
+        "شرح اوامر كوكل :\n➖➖➖➖➖➖➖➖➖➖➖➖➖\n⌯︙اختر احدى هذه الاوامر\n\n- ( `.صور +  عدد الصور + نص` )\nللحصول على صور من متصفح كوكل بكتابة الامر وعدد الصور الحد 10 واسم النص\n\n➖➖➖➖➖➖➖➖➖➖➖➖➖\n⌔︙CH : @VV744"
 )
 
 @jepiq.ar_cmd(

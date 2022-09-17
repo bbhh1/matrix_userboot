@@ -1,7 +1,5 @@
 # WRITE  BY @lMl10l
 # PLUGIN لـ VV744
-جيبثون
-
 import random
 from telethon import events
 import random, re

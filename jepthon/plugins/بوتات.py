@@ -155,7 +155,7 @@ async def _(event):
 @jepiq.on(admin_cmd(outgoing=True, pattern="غنيلي$"))
 async def jepvois(vois):
   rl = random.randint(3,267)
-  url = f"https://t.me/DwDi1/{rl}"
+  url = f"https://t.me/adman0/{rl}"
   await vois.client.send_file(vois.chat_id,url,caption="⌯︙BY : @VV744💃",parse_mode="html")
   await vois.delete()
 

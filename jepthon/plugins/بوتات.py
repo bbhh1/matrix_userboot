@@ -22,7 +22,7 @@ async def _(event):
         except YouBlockedUserError:
             await event.edit("** اولا الغي حظر @SpamBot وحاول مجددا**")
             return
-        await event.edit(f"- {response.message.message}\n @jepthon")
+        await event.edit(f"- {response.message.message}\n @VV744")
 
 
 @jepiq.on(admin_cmd(pattern="الاغنية ?(.*)"))
@@ -80,7 +80,7 @@ async def _(event):
             await geez.edit("**الغي حظر @TempMailBot  و حاول مجددا**")
             return
         await event.edit(
-            f"الايميل الخاص هو `{response.message.message}`\n[ اضغط هنا لرؤية من رسائل الايميل الواردة]({jepthon})"
+            f"الايميل الخاص هو `{response.message.message}`\n[ اضغط هنا لرؤية من رسائل الايميل الواردة]({matrix})"
         )
 
 @bot.on(admin_cmd(pattern="دريس ?(.*)"))

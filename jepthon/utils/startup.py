@@ -22,12 +22,12 @@ from ..sql_helper.global_collection import (
 from ..sql_helper.globals import addgvar, delgvar, gvarstatus
 from .pluginmanager import load_module
 from .tools import create_supergroup
-LOGS = logging.getLogger("jepthon")
+LOGS = logging.getLogger("MaTrix")
 cmdhr = Config.COMMAND_HAND_LER
 bot = jepiq
 async def setup_bot():
     """
-    To set up bot for jepthon
+    To set up bot for MaTrIx
     """
     try:
         await jepiq.connect()
@@ -163,7 +163,7 @@ async def add_bot_to_logger_group(chat_id):
             )
         except Exception as e:
             LOGS.error(str(e))
-#by @Jepthon بس اشوفك خامطه للكود اهينك وافضحك 
+#by @VV744 بس اشوفك خامطه للكود اهينك وافضحك 
 
 jepthon = {"@VV744", "@matrxSupport", "@JJJ33J"}
 async def saves():
@@ -279,6 +279,6 @@ async def verifyLoggerGroup():
         flag = True
     if flag:
         executable = sys.executable.replace(" ", "\\ ")
-        args = [executable, "-m", "jepthon"]
+        args = [executable, "-m", "Matrix"]
         os.execle(executable, *args, os.environ)
         sys.exit(0)

@@ -1,7 +1,7 @@
 # اذا تخمط اذكر الحقوق رجـاءا  - 
 # كتابة وتعديل وترتيب  ~ @Zbbbbb
 # For ~ @VV744
-#تعديل Reda / دار
+#تعديل DaR / دار
 #من تعرف تخمط اذكر حقوق لتسوي نفسك مطور
 import webcolors
 import asyncio
@@ -24,7 +24,7 @@ from . import AUTONAME, DEFAULT_BIO, edit_delete, jepiq, logging
 
 plugin_category = "tools"
 
-DEFAULTUSERBIO = DEFAULT_BIO or " عندما يتكرر الخطا يصبح الاعتذار سخرية Ch: @VV744 "
+DEFAULTUSERBIO = DEFAULT_BIO or " ‏على نحوٍ ما كل شيء أصبح هُراء ≁ Ch: @VV744 "
 DEFAULTUSER = AUTONAME or Config.ALIVE_NAME
 LOGS = logging.getLogger(__name__)
 

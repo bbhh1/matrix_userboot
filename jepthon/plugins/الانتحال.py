@@ -22,7 +22,7 @@ DEFAULTUSER = str(AUTONAME) if AUTONAME else str(ALIVE_NAME)
 DEFAULTUSERBIO = (
     str(DEFAULT_BIO)
     if DEFAULT_BIO
-    else "عندما يتكرر الخطا يصبح الاعتذار سخرية Ch: @VV744"
+    else "عندما يتكرر الخطا يصبح الاعتذار سخرية Ch: @aaaxx1z"
 )
 
 

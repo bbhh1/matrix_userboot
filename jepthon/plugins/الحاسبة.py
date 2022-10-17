@@ -60,7 +60,7 @@ async def inlinecalc(event):
     ) and string == "calc":
         event.builder
         calc = event.builder.article(
-            "Calc", text="**الحـاسبة العـلمية لسـورس سيرثون\n @VV744**", buttons=lst
+            "Calc", text="**الحـاسبة العـلمية لسـورس سيرثون\n @aaddr2**", buttons=lst
         )
         await event.answer([calc])
 

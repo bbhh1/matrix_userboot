@@ -50,7 +50,7 @@ async def setup_bot():
         if Config.OWNER_ID == 0:
             Config.OWNER_ID = utils.get_peer_id(jepiq.me)
     except Exception as e:
-        LOGS.error(f"كـود تيرمكس - {str(e)}")
+        LOGS.error(f"كـود سيرثون - {str(e)}")
         sys.exit()
 
 
@@ -63,8 +63,8 @@ async def startupmessage():
             Config.CATUBLOGO = await jepiq.tgbot.send_file(
                 BOTLOG_CHATID,
                 "https://telegra.ph/file/782ffdcea715274af857e.jpg",
-                caption="⌯︙**بــوت ماتركس يـعـمـل بـنـجـاح**  ✅ \n⌯︙**قـنـاة الـسـورس**  :  @VV744",
-                buttons=[(Button.url("كروب ماتركس", "https://t.me/matrxSupport"),)],
+                caption="⌯︙**بــوت سيرثون امير يـعـمـل بـنـجـاح**  ✅ \n⌯︙**قـنـاة الـسـورس**  :  @aaaxx1z",
+                buttons=[(Button.url("كروب سيرثون", "https://t.me/aaddr2"),)],
             )
     except Exception as e:
         LOGS.error(e)
@@ -82,7 +82,7 @@ async def startupmessage():
             message = await jepiq.get_messages(msg_details[0], ids=msg_details[1])
             text = (
                 message.text
-                + "\n\n**⌯︙اهلا وسهلا لقد قمت باعاده تشغيل بـوت ماتركس تمت بنجاح**"
+                + "\n\n**⌯︙اهلا وسهلا لقد قمت باعاده تشغيل بـوت سيرثون تمت بنجاح**"
             )
             
             if gvarstatus("restartupdate") is not None:
@@ -240,7 +240,7 @@ async def verifyLoggerGroup():
                 + str(e)
             )
     else:
-        descript = "- عزيزي المستخدم هذه هي مجموعه الاشعارات يرجى عدم حذفها  - @VV744"
+        descript = "- عزيزي المستخدم هذه هي مجموعه الاشعارات يرجى عدم حذفها  - @aaddr2"
         photobt = await jepiq.upload_file(file="JepIQ/razan/resources/start/IMG_20220905_203827_263.jpg")
         _, groupid = await create_supergroup(
             "مجموعة اشعارات ماتركس ", jepiq, Config.TG_BOT_USERNAME, descript, photobt
@@ -269,7 +269,7 @@ async def verifyLoggerGroup():
                 "⌯︙حدث استثناء عند محاولة التحقق من PM_LOGGER_GROUP_ID.\n" + str(e)
             )
     else:
-        descript = "⌯︙ وظيفه الكروب يحفظ رسائل الخاص اذا ما تريد الامر احذف الكروب نهائي \n  - @VV744"
+        descript = "⌯︙ وظيفه الكروب يحفظ رسائل الخاص اذا ما تريد الامر احذف الكروب نهائي \n  - @aaddr2"
         photobt = await jepiq.upload_file(file="JepIQ/razan/resources/start/IMG_20220905_204535_409.jpg")
         _, groupid = await create_supergroup(
             "مجموعة تخزين ماتركس", jepiq, Config.TG_BOT_USERNAME, descript, photobt

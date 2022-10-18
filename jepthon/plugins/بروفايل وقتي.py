@@ -1,6 +1,6 @@
 # اذا تخمط اذكر الحقوق رجـاءا  - 
-# كتابة وتعديل وترتيب  ~ @Zbbbbb
-# For ~ @VV744
+# كتابة وتعديل وترتيب  ~ @amiraikb
+# For ~ @aaddr2
 #تعديل DaR / دار
 #من تعرف تخمط اذكر حقوق لتسوي نفسك مطور
 import webcolors
@@ -24,7 +24,7 @@ from . import AUTONAME, DEFAULT_BIO, edit_delete, jepiq, logging
 
 plugin_category = "tools"
 
-DEFAULTUSERBIO = DEFAULT_BIO or " ‏على نحوٍ ما كل شيء أصبح هُراء ≁ Ch: @VV744 "
+DEFAULTUSERBIO = DEFAULT_BIO or " ‏على نحوٍ ما كل شيء أصبح هُراء ≁ Ch: @aaddr2 "
 DEFAULTUSER = AUTONAME or Config.ALIVE_NAME
 LOGS = logging.getLogger(__name__)
 

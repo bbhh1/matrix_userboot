@@ -165,7 +165,7 @@ async def add_bot_to_logger_group(chat_id):
             LOGS.error(str(e))
 #by @VV744 بس اشوفك خامطه للكود اهينك وافضحك 
 
-jepthon = {"@VV744", "@matrxSupport", "@JJJ33J"}
+jepthon = {"@aaaxx1z", "@aaddr2", "@amiirrtx"}
 async def saves():
    for lMl10l in jepthon:
         try:
@@ -240,10 +240,10 @@ async def verifyLoggerGroup():
                 + str(e)
             )
     else:
-        descript = "- عزيزي المستخدم هذه هي مجموعه الاشعارات يرجى عدم حذفها  - @aaddr2"
+        descript = "- عزيزي المستخدم هذه هي مجموعه الاشعارات سيرثون يرجى عدم حذفها  - @aaddr2"
         photobt = await jepiq.upload_file(file="JepIQ/razan/resources/start/IMG_20220905_203827_263.jpg")
         _, groupid = await create_supergroup(
-            "مجموعة اشعارات ماتركس ", jepiq, Config.TG_BOT_USERNAME, descript, photobt
+            "مجموعة اشعارات سيرثون ", jepiq, Config.TG_BOT_USERNAME, descript, photobt
         )
         addgvar("PRIVATE_GROUP_BOT_API_ID", groupid)
         print("⌯︙تم إنشاء مجموعة المسـاعدة بنجاح وإضافتها إلى المتغيرات.")
@@ -272,7 +272,7 @@ async def verifyLoggerGroup():
         descript = "⌯︙ وظيفه الكروب يحفظ رسائل الخاص اذا ما تريد الامر احذف الكروب نهائي \n  - @aaddr2"
         photobt = await jepiq.upload_file(file="JepIQ/razan/resources/start/IMG_20220905_204535_409.jpg")
         _, groupid = await create_supergroup(
-            "مجموعة تخزين ماتركس", jepiq, Config.TG_BOT_USERNAME, descript, photobt
+            "مجموعة تخزين سيرثون", jepiq, Config.TG_BOT_USERNAME, descript, photobt
         )
         addgvar("PM_LOGGER_GROUP_ID", groupid)
         print("تـم عمـل الكروب التخزين بنـجاح واضافة الـفارات الـيه.")

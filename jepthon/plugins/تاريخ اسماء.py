@@ -1,5 +1,5 @@
 # Copyright (C) 2021 matrix TEAM
-# FILES WRITTEN BY  @Zbbbbb
+# FILES WRITTEN BY  @amiraikb
 import asyncio
 
 from telethon.errors.rpcerrorlist import YouBlockedUserError
@@ -28,7 +28,7 @@ plugin_category = "utils"
         "examples": "{tr}sg @missrose_bot",
     },
 )
-async def _(event):  #   : @Zbbbbb
+async def _(event):  #   : @amiraikb
     "To get name/username history."
     input_str = "".join(event.text.split(maxsplit=1)[1:])
     reply_message = await event.get_reply_message()
@@ -67,6 +67,6 @@ async def _(event):  #   : @Zbbbbb
     for i in check:
         if jasem:
             await event.reply(i, parse_mode=_format.parse_pre)
-        else:#ترجمه فريق ماتركس على التيلكرام
+        else:#ترجمه فريق سيرثون على التيلكرام
             jasem = True
             await catevent.edit(i, parse_mode=_format.parse_pre)

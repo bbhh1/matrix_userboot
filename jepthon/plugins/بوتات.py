@@ -156,24 +156,24 @@ async def _(event):
 async def jepvois(vois):
   rl = random.randint(3,267)
   url = f"https://t.me/adman0/{rl}"
-  await vois.client.send_file(vois.chat_id,url,caption="⌯︙BY : @VV744💃",parse_mode="html")
+  await vois.client.send_file(vois.chat_id,url,caption="⌯︙BY : @aaddr2💃",parse_mode="html")
   await vois.delete()
 
 @jepiq.on(admin_cmd(outgoing=True, pattern="شعر$"))
 async def jepvois(vois):
   rl = random.randint(2,101)
   url = f"https://t.me/L1BBBL/{rl}"
-  await vois.client.send_file(vois.chat_id,url,caption="⌯︙BY : @VV744 💯",parse_mode="html")
+  await vois.client.send_file(vois.chat_id,url,caption="⌯︙BY : @aaddr2 💯",parse_mode="html")
   await vois.delete()
 @jepiq.on(admin_cmd(outgoing=True, pattern="قران$"))
 async def jepvois(vois):
   rl = random.randint(2,101)
   url = f"https://t.me/QuraanJep/{rl}"
-  await vois.client.send_file(vois.chat_id,url,caption="⌯︙BY : @VV744 🤲🏻☪️",parse_mode="html")
+  await vois.client.send_file(vois.chat_id,url,caption="⌯︙BY : @aaddr2 🤲🏻☪️",parse_mode="html")
   await vois.delete()
 @jepiq.on(admin_cmd(outgoing=True, pattern="ثيم$"))
 async def jepThe(theme):
   rl = random.randint(2,510)
   url = f"https://t.me/GSSSD/{rl}"
-  await theme.client.send_file(theme.chat_id,url,caption="⌯︙THEME BY : @VV744 🎊",parse_mode="html")
+  await theme.client.send_file(theme.chat_id,url,caption="⌯︙THEME BY : @aaddr2 🎊",parse_mode="html")
   await theme.delete()

@@ -53,7 +53,7 @@ def ibuild_keyboard(buttons):
 
 
 def main_menu():
-    text = f"**- [سـورس سيرثون](https://t.me/JepThon)\
+    text = f"**- [سـورس سيرثون](https://t.me/amiraikb)\
         \n المسـاعد\
         \n\
         \n◽ سيرثون لـ {mention}**"

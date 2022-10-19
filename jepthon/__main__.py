@@ -16,7 +16,7 @@ from .utils import (
     saves,
 )
 
-LOGS = logging.getLogger("JepThon")
+LOGS = logging.getLogger("𝐒𝐄𝐑𝐓𝐇𝐎𝐍")
 
 print(jepthon.__copyright__)
 print("Licensed under the terms of the " + jepthon.__license__)

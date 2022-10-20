@@ -19,7 +19,7 @@ plugin_category = "extra"
 async def _(event):
      if not event.text[0].isalpha() and event.text[0] not in ("/", "#", "@", "!"):
             await event.edit(
-                "قائمة اوامر التمبـلر :\n➖➖➖➖➖➖➖➖➖➖➖➖➖\n ⌯︙اختر احدى هذه القوائم\n\n- ( `.الزغرفة` ) \n- ( `.اسماء تمبلر` )   \n- (`.اسماء عربية`)\n- ( `.اشهر مزغرفة`) \n- ( `.الاختصارات` ) \n- ( `.البايو` )\n- (`.المتحركات`)\n\n➖➖➖➖➖➖➖➖➖➖➖➖➖\n⌔︙CH : @JepThon"
+                "قائمة اوامر التمبـلر :\n➖➖➖➖➖➖➖➖➖➖➖➖➖\n ⌯︙اختر احدى هذه القوائم\n\n- ( `.الزغرفة` ) \n- ( `.اسماء تمبلر` )   \n- (`.اسماء عربية`)\n- ( `.اشهر مزغرفة`) \n- ( `.الاختصارات` ) \n- ( `.البايو` )\n- (`.المتحركات`)\n\n➖➖➖➖➖➖➖➖➖➖➖➖➖\n⌔︙CH : @aaddr2"
             )
 #by ~ @lMl10l
 @jepiq.ar_cmd(
@@ -28,7 +28,7 @@ async def _(event):
 async def _(event):
      if not event.text[0].isalpha() and event.text[0] not in ("/", "#", "@", "!"):
             await event.edit(
-                "˛ JepThon ، ٰFٓoٍَِNٌtSَ\n"
+                "˛ SERTHON ، ٰFٓoٍَِNٌtSَ\n"
                 "•━═━═━═━═━━═━═━═━═━•\n"
                 "**قائـمة اوامر الزغرفة :**\n"
                 " `.زغرفة0`\n"
@@ -43,7 +43,7 @@ async def _(event):
                 " `.زغرفة9`\n"
                 " **اكتب الاسم مع الامر للـزغرفة فقط انكليزي**\n"
                 "•━═━═━═━═━━═━═━═━═━•‌‌\n"
-                "˛ JepThon ، ٰUٍsٓEِrBُoََt - [CَِٓHُ](t.me/JepThon)"
+                "˛ SERTHON ، ٰUٍsٓEِrBُoََt - [CَِٓHُ](t.me/aaddr2)"
             )
 #by ~ @lMl10l
 @jepiq.ar_cmd(
@@ -112,7 +112,7 @@ async def _(event):
     pattern="متحركات كيوت$",
     command=("متحركات كيوت", plugin_category),)
 async def _(event):
-    await event.edit("قائمة اوامر متحـرات كيـوت :\n➖➖➖➖➖➖➖➖➖➖➖➖➖\n ⌯︙اختر احدى هذه القوائم\n\n- ( `.ك1` ) \n- ( `.ك2` )   \n- (`.ك3`)\n- ( `.ك4`) \n- ( `.ك5` ) \n- ( `.ك6` )\n- ( `.ك7` )\n➖➖➖➖➖➖➖➖➖➖➖➖➖\n⌔︙CH : @aaddr2"
+    await event.edit("قائمة اوامر متحـرات كيـوت :\n➖➖➖➖➖➖➖➖➖➖➖➖➖\n ⌯︙اختر احدى هذه القوائم🇾🇪\n\n- ( `.ك1` ) \n- ( `.ك2` )   \n- (`.ك3`)\n- ( `.ك4`) \n- ( `.ك5` ) \n- ( `.ك6` )\n- ( `.ك7` )\n➖➖➖➖➖➖➖➖➖➖➖➖➖\n⌔︙CH : @aaddr2"
             )           
 
         
@@ -244,8 +244,8 @@ async def _(event):
                 "「𝘋𝘮𝘢𝘳 𐃣.\n"
                 "「𝘑𝘮𝘳𝘢 𐃣."
             )
-# ˛ jepthon ، ٰUٍsٓEِrBُoََt  # 
-#by ~ @lMl10l
+# ˛ SERTHON ، ٰUٍsٓEِrBُoََt  # 
+#by ~ @amiraikb
 @jepiq.ar_cmd(
     pattern="شباب2$",
     command=("شباب2", plugin_category),
@@ -296,8 +296,8 @@ async def _(event):
                 "𓂐 𝙃𝙈𝙊 𖠛 .\n"
                 "𓂐 𝙅𝙊𝙅 𖠛 ."
             )
-# ˛ jepthon ، ٰUٍsٓEِrBُoََt  # 
-#by ~ @lMl10l
+# ˛ SERTHON ، ٰUٍsٓEِrBُoََt  # 
+#by ~ @amiraikb
 @jepiq.ar_cmd(
     pattern="بنات1$",
     command=("بنات1", plugin_category),)
@@ -355,7 +355,7 @@ async def _(event):
                 "𓂐 𝘼𝙈𝙔  𖠛 ."
             )
 # ˛ 𝖩𝗆𝗍𝖧ٰ𝗈𝗇 ، ٰUٍsٓEِrBُoََt  # 
-#by ~ @lMl10l
+#by ~ @SERTHON
 @jepiq.ar_cmd(
     pattern="بنات2$",
     command=("بنات2", plugin_category),
@@ -399,7 +399,7 @@ async def _(event):
             )
         
 # ˛ Jepthon ، ٰUٍsٓEِrBُoََt  # 
-#by ~ @lMl10l
+#by ~ @amiraikb
 @jepiq.ar_cmd(
     pattern="قنوات$",
     command=("قنوات", plugin_category),
@@ -452,7 +452,7 @@ async def _(event):
                 ": ..................."
             )
 # ˛ Jepthon ، ٰUٍsٓEِrBُoََt  # 
-#by ~ @lMl10l
+#by ~ @amiraikb
 @jepiq.ar_cmd(
     pattern="اختصارات1$",
     command=("اختصارات1", plugin_category),
@@ -548,7 +548,7 @@ async def _(event):
                 "أﯠﯠ؏\n"
             )
 # ˛ jepthon ، ٰUٍsٓEِrBُoََt  # 
-#by ~ @lMl10l
+#by ~ @amiraikb
 @jepiq.ar_cmd(
     pattern="اختصارات2$",
     command=("اختصارات2", plugin_category),
@@ -588,7 +588,7 @@ async def _(event):
             )
         
 # ˛ jepthon ، ٰUٍsٓEِrBُoََt  # 
-#by ~ @lMl10l
+#by ~ @amiraikb
 @jepiq.ar_cmd(
     pattern="اختصارات3$",
     command=("اختصارات3", plugin_category),
@@ -639,7 +639,7 @@ async def _(event):
             )
         
 # ˛ jepthon ، ٰUٍsٓEِrBُoََt  # 
-#by ~ @lMl10l
+#by ~ @amiraikb
 @jepiq.ar_cmd(
     pattern="اختصارات4$",
     command=("اختصارات4", plugin_category),)
@@ -687,7 +687,7 @@ async def _(event):
             )
         
 # ˛ jepthon ، ٰUٍsٓEِrBُoََt  # 
-#by ~ @lMl10l
+#by ~ @amiraikb
 @jepiq.ar_cmd(
     pattern="اختصارات5$",
     command=("اختصارات5", plugin_category),)
@@ -762,5 +762,5 @@ async def _(event):
                 "- حِݪۅ 💕.\n"
                 "- مٖتݪزِكٰ 💕."
             )
-#by ~ @lMl10l
+#by ~ @amiraikb
 

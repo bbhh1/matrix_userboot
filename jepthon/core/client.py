@@ -141,7 +141,7 @@ class CatUserBotClient(TelegramClient):
                             ftext, pastetype="s", markdown=False
                         )
                         text = "**تقرير خطا سيرثون**\n\n"
-                        link = "[هنا](https://t.me/matrxSupport)"
+                        link = "[هنا](https://t.me/aaddr2)"
                         text += "إذا كنت تريد يمكنك الإبلاغ عن ذلك"
                         text += f"- فقط قم بإعادة توجيه هذه الرسالة {link}.\n"
                         text += "لا يتم تسجيل اي خطا فقط التاريخ والوقت\n\n"
@@ -255,7 +255,7 @@ class CatUserBotClient(TelegramClient):
                         pastelink = await paste_message(
                             ftext, pastetype="s", markdown=False
                         )
-                        text = "**تقرير خطا مـاتركس**\n\n"
+                        text = "**تقرير خطا سيرثون**\n\n"
                         link = "[هنا](https://t.me/aaddr2)"
                         text += "إذا كنت تريد يمكنك الإبلاغ عن ذلك"
                         text += f"- فقط قم بإعادة توجيه هذه الرسالة {link}.\n"

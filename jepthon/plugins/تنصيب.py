@@ -32,4 +32,4 @@ async def repo(event):
     await response[0].click(event.chat_id)
     await event.delete()
 
-# edit by ~ @zbbbbb
+# edit by ~ @amiraikb

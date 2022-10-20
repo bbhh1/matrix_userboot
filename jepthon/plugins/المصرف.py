@@ -320,7 +320,7 @@ async def bankar(message):
     if get_bank(mee.id) is not None:
         return await edit_or_reply(message, f"<strong>لديك حساب مصرفي بالفعل</strong>",parse_mode="html")
     if input == "اليمن الاسلامي":
-        bankn = "مصرف ماتركس الاسلامي"
+        bankn = "مصرف اليمن الاسلامي"
     elif input == "سيرثون":
     	bankn = "مصرف سيرثون"
     elif input != "سيرثون" or "اليمن الاسلامي":

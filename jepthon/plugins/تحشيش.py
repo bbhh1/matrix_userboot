@@ -245,7 +245,7 @@ async def permalink(mention):
 
 @jepiq.on(admin_cmd(pattern="روجر(?:\s|$)([\s\S]*)"))
 async def permalink(mention):
-    await edit_or_reply(mention, f"سماحة روجر مطور سورس ريبثون @Repthon - @ZQ_LO")
+    await edit_or_reply(mention, f"سماحة امير مطور سورس سيرثون @aaddr2 - @amiraikb")
 
 @jepiq.on(admin_cmd(pattern="رفع ايجة(?:\s|$)([\s\S]*)"))
 async def permalink(mention):

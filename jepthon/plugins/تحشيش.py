@@ -35,7 +35,7 @@ async def permalink(mention):
     my_mention = f"[{me.first_name}](tg://user?id={me.id})"
     await edit_or_reply(mention, f"🚻 ** ⌯︙ المستخدم => • ** [{jepthon}](tg://user?id={user.id}) \n ☑️ **⌯︙ تم رفعها مرتك بواسطه  :**{my_mention} 👰🏼‍♀️.\n**⌯︙ يلا حبيبي امشي نخلف بيبي 👶🏻🤤** ")
 
-@jepiq.on(admin_cmd(pattern="رفع جلب(?:\s|$)([\s\S]*)"))
+@jepiq.on(admin_cmd(pattern="رفع كلب(?:\s|$)([\s\S]*)"))
 async def permalink(mention):
     """Generates a link to the user's PM with a custom text."""
     user, custom = await get_user_from_event(mention)
@@ -47,7 +47,7 @@ async def permalink(mention):
     me = await mention.client.get_me()
     my_first = me.first_name
     my_mention = f"[{me.first_name}](tg://user?id={me.id})"
-    await edit_or_reply(mention, f"**⌯︙المستخدم** [{jepthon}](tg://user?id={user.id}) \n**⌯︙ تـم رفعـه جلب 🐶 بواسطة :** {my_mention} \n**⌯︙ خليه خله ينبح 😂**")
+    await edit_or_reply(mention, f"**⌯︙المستخدم** [{jepthon}](tg://user?id={user.id}) \n**⌯︙ تـم رفعـه كلب 🐶 بواسطة :** {my_mention} \n**⌯︙ خليه خله ينبح 😂**")
 
 @jepiq.on(admin_cmd(pattern="رفع تاج(?:\s|$)([\s\S]*)"))
 async def permalink(mention):
@@ -77,7 +77,7 @@ async def permalink(mention):
     my_mention = f"[{me.first_name}](tg://user?id={me.id})"
     await edit_or_reply(mention, f"⌯︙المستخدم [{jepthon}](tg://user?id={user.id}) \n**⌯︙ تـم رفعـه قرد واعطائه موزة 🐒🍌 بواسطة :** {my_mention}")
 
-@jepiq.on(admin_cmd(pattern="رفع بكلبي(?:\s|$)([\s\S]*)"))
+@jepiq.on(admin_cmd(pattern="رفع بقلبي(?:\s|$)([\s\S]*)"))
 async def permalink(mention):
     """Generates a link to the user's PM with a custom text."""
     user, custom = await get_user_from_event(mention)
@@ -87,11 +87,11 @@ async def permalink(mention):
     me = await mention.client.get_me()
     my_first = me.first_name
     my_mention = f"[{me.first_name}](tg://user?id={me.id})"
-    await edit_or_reply(mention, f"**⌯︙المستخدم** [{jepthon}](tg://user?id={user.id}) \n**⌯︙ تـم رفعـه بكلـبك 🤍 بواسطة :** {my_mention} \n**⌯︙ انت حبي الابدي 😍**")
+    await edit_or_reply(mention, f"**⌯︙المستخدم** [{jepthon}](tg://user?id={user.id}) \n**⌯︙ تـم رفعـه بقلبي 🤍 بواسطة :** {my_mention} \n**⌯︙ انت حبي الابدي 😍**")
     
     
 
-@jepiq.on(admin_cmd(pattern="رفع مطي(?:\s|$)([\s\S]*)"))
+@jepiq.on(admin_cmd(pattern="رفع اهبل(?:\s|$)([\s\S]*)"))
 async def permalink(mention):
     """Generates a link to the user's PM with a custom text."""
     user, custom = await get_user_from_event(mention)
@@ -103,7 +103,7 @@ async def permalink(mention):
     me = await mention.client.get_me()
     my_first = me.first_name
     my_mention = f"[{me.first_name}](tg://user?id={me.id})"
-    await edit_or_reply(mention, f"**⌯︙المستخدم** [{jepthon}](tg://user?id={user.id}) \n**⌯︙ تـم رفعـه مطي 🐴 بواسطة :** {my_mention} \n**⌯︙ تعال حبي استلم العربانه **")
+    await edit_or_reply(mention, f"**⌯︙المستخدم** [{jepthon}](tg://user?id={user.id}) \n**⌯︙ تـم رفعـه اهبل 🐴 بواسطة :** {my_mention} \n**⌯︙ تعال ياهبل استلم العربيه **")
     
 #كـتابة المـلف وتعديل.    :   السيد حسين.   اخمط وسمي روحك مطور فرخي 😂
 # اذا انت ابن حرام اخمط 😂
@@ -139,7 +139,7 @@ async def permalink(mention):
     my_mention = f"[{me.first_name}](tg://user?id={me.id})"
     await edit_or_reply(mention, f"**⌯︙المستخدم** [{jepthon}](tg://user?id={user.id}) \n**⌯︙ تـم رفع المتهم زاحف اصلي بواسطة :** {my_mention} \n**⌯︙ ها يلزاحف شوكت تبطل سوالفك حيوان 😂🐍**")
 
-@jepiq.on(admin_cmd(pattern="رفع كحبة(?:\s|$)([\s\S]*)"))
+@jepiq.on(admin_cmd(pattern="رفع قحبه(?:\s|$)([\s\S]*)"))
 async def permalink(mention):
     """Generates a link to the user's PM with a custom text."""
     user, custom = await get_user_from_event(mention)
@@ -151,7 +151,7 @@ async def permalink(mention):
     me = await mention.client.get_me()
     my_first = me.first_name
     my_mention = f"[{me.first_name}](tg://user?id={me.id})"
-    await edit_or_reply(mention, f"**⌯︙المستخدم** [{jepthon}](tg://user?id={user.id}) \n**⌯︙ تـم رفع المتهم كحبة 👙 بواسطة :** {my_mention} \n**⌯︙ ها يلكحبة طوبز خلي انيجك/ج**")
+    await edit_or_reply(mention, f"**⌯︙المستخدم** [{jepthon}](tg://user?id={user.id}) \n**⌯︙ تـم رفع المتهم قحبه 👙 بواسطة :** {my_mention} \n**⌯︙ ها يالقحبه تعال خلي انيكك/ج**")
 
 @jepiq.on(admin_cmd(pattern="رفع فرخ(?:\s|$)([\s\S]*)"))
 async def permalink(mention):
@@ -199,7 +199,7 @@ async def permalink(mention):
     my_mention = f"[{me.first_name}](tg://user?id={me.id})"
     await edit_or_reply(mention, f"**⌯︙المستخدم** [{jepthon}](tg://user?id={user.id}) \n**⌯︙ تـم رفعـها حاته الكروب 🤤😻 بواسطة :** {my_mention} \n**⌯︙ تعاي يعافيتي اريد حضن دافي 😽**")
 
-@jepiq.on(admin_cmd(pattern="رفع صنعاني(?:\s|$)([\s\S]*)"))
+@jepiq.on(admin_cmd(pattern="رفع يمني(?:\s|$)([\s\S]*)"))
 async def permalink(mention):
     """Generates a link to the user's PM with a custom text."""
     user, custom = await get_user_from_event(mention)

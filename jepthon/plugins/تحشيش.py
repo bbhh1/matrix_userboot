@@ -33,7 +33,7 @@ async def permalink(mention):
     me = await mention.client.get_me()
     my_first = me.first_name
     my_mention = f"[{me.first_name}](tg://user?id={me.id})"
-    await edit_or_reply(mention, f"🚻 ** ⌯︙ المستخدم => • ** [{jepthon}](tg://user?id={user.id}) \n ☑️ **⌯︙ تم رفعها مرتك بواسطه  :**{my_mention} 👰🏼‍♀️.\n**⌯︙ يلا حبيبي امشي نخلف بيبي 👶🏻🤤** ")
+    await edit_or_reply(mention, f"🚻 ** ◇︰ المستخدم => • ** [{jepthon}](tg://user?id={user.id}) \n ☑️ **◇︰ تم رفعها مرتك بواسطه  :**{my_mention} 👰🏼‍♀️.\n**◇︰ يلا حبيبي امشي نخلف بيبي 👶🏻🤤** ")
 
 @jepiq.on(admin_cmd(pattern="رفع جلب(?:\s|$)([\s\S]*)"))
 async def permalink(mention):
@@ -47,7 +47,7 @@ async def permalink(mention):
     me = await mention.client.get_me()
     my_first = me.first_name
     my_mention = f"[{me.first_name}](tg://user?id={me.id})"
-    await edit_or_reply(mention, f"**⌯︙المستخدم** [{jepthon}](tg://user?id={user.id}) \n**⌯︙ تـم رفعـه جلب 🐶 بواسطة :** {my_mention} \n**⌯︙ خليه خله ينبح 😂**")
+    await edit_or_reply(mention, f"**◇︰المستخدم** [{jepthon}](tg://user?id={user.id}) \n**◇︰ تـم رفعـه جلب 🐶 بواسطة :** {my_mention} \n**◇︰ خليه خله ينبح 😂**")
 
 @jepiq.on(admin_cmd(pattern="رفع تاج(?:\s|$)([\s\S]*)"))
 async def permalink(mention):
@@ -61,7 +61,7 @@ async def permalink(mention):
     me = await mention.client.get_me()
     my_first = me.first_name
     my_mention = f"[{me.first_name}](tg://user?id={me.id})"
-    await edit_or_reply(mention, f"⌯︙المستخدم [{jepthon}](tg://user?id={user.id}) \n**⌯︙ تـم رفعـه تاج بواسطة :** {my_mention} 👑🔥")
+    await edit_or_reply(mention, f"◇︰المستخدم [{jepthon}](tg://user?id={user.id}) \n**◇︰ تـم رفعـه تاج بواسطة :** {my_mention} 👑🔥")
 
 @jepiq.on(admin_cmd(pattern="رفع قرد(?:\s|$)([\s\S]*)"))
 async def permalink(mention):
@@ -75,7 +75,7 @@ async def permalink(mention):
     me = await mention.client.get_me()
     my_first = me.first_name
     my_mention = f"[{me.first_name}](tg://user?id={me.id})"
-    await edit_or_reply(mention, f"⌯︙المستخدم [{jepthon}](tg://user?id={user.id}) \n**⌯︙ تـم رفعـه قرد واعطائه موزة 🐒🍌 بواسطة :** {my_mention}")
+    await edit_or_reply(mention, f"◇︰المستخدم [{jepthon}](tg://user?id={user.id}) \n**◇︰ تـم رفعـه قرد واعطائه موزة 🐒🍌 بواسطة :** {my_mention}")
 
 @jepiq.on(admin_cmd(pattern="رفع بكلبي(?:\s|$)([\s\S]*)"))
 async def permalink(mention):
@@ -87,7 +87,7 @@ async def permalink(mention):
     me = await mention.client.get_me()
     my_first = me.first_name
     my_mention = f"[{me.first_name}](tg://user?id={me.id})"
-    await edit_or_reply(mention, f"**⌯︙المستخدم** [{jepthon}](tg://user?id={user.id}) \n**⌯︙ تـم رفعـه بكلـبك 🤍 بواسطة :** {my_mention} \n**⌯︙ انت حبي الابدي 😍**")
+    await edit_or_reply(mention, f"**◇︰المستخدم** [{jepthon}](tg://user?id={user.id}) \n**◇︰ تـم رفعـه بكلـبك 🤍 بواسطة :** {my_mention} \n**◇︰ انت حبي الابدي 😍**")
     
     
 
@@ -103,7 +103,7 @@ async def permalink(mention):
     me = await mention.client.get_me()
     my_first = me.first_name
     my_mention = f"[{me.first_name}](tg://user?id={me.id})"
-    await edit_or_reply(mention, f"**⌯︙المستخدم** [{jepthon}](tg://user?id={user.id}) \n**⌯︙ تـم رفعـه مطي 🐴 بواسطة :** {my_mention} \n**⌯︙ تعال حبي استلم العربانه **")
+    await edit_or_reply(mention, f"**◇︰المستخدم** [{jepthon}](tg://user?id={user.id}) \n**◇︰ تـم رفعـه مطي 🐴 بواسطة :** {my_mention} \n**◇︰ تعال حبي استلم العربانه **")
     
 #كـتابة المـلف وتعديل.    :   السيد حسين.   اخمط وسمي روحك مطور فرخي 😂
 # اذا انت ابن حرام اخمط 😂
@@ -122,7 +122,7 @@ async def permalink(mention):
     me = await mention.client.get_me()
     my_first = me.first_name
     my_mention = f"[{me.first_name}](tg://user?id={me.id})"
-    await edit_or_reply(mention, f"**⌯︙المستخدم** [{jepthon}](tg://user?id={user.id}) \n**⌯︙ تـم رفعـه زوجج بواسطة :** {my_mention} \n**⌯︙ يلا حبيبي امشي نخلف 🤤🔞**")
+    await edit_or_reply(mention, f"**◇︰المستخدم** [{jepthon}](tg://user?id={user.id}) \n**◇︰ تـم رفعـه زوجج بواسطة :** {my_mention} \n**◇︰ يلا حبيبي امشي نخلف 🤤🔞**")
     
 
 @jepiq.on(admin_cmd(pattern="رفع زاحف(?:\s|$)([\s\S]*)"))
@@ -137,7 +137,7 @@ async def permalink(mention):
     me = await mention.client.get_me()
     my_first = me.first_name
     my_mention = f"[{me.first_name}](tg://user?id={me.id})"
-    await edit_or_reply(mention, f"**⌯︙المستخدم** [{jepthon}](tg://user?id={user.id}) \n**⌯︙ تـم رفع المتهم زاحف اصلي بواسطة :** {my_mention} \n**⌯︙ ها يلزاحف شوكت تبطل سوالفك حيوان 😂🐍**")
+    await edit_or_reply(mention, f"**◇︰المستخدم** [{jepthon}](tg://user?id={user.id}) \n**◇︰ تـم رفع المتهم زاحف اصلي بواسطة :** {my_mention} \n**◇︰ ها يلزاحف شوكت تبطل سوالفك حيوان 😂🐍**")
 
 @jepiq.on(admin_cmd(pattern="رفع كحبة(?:\s|$)([\s\S]*)"))
 async def permalink(mention):
@@ -151,7 +151,7 @@ async def permalink(mention):
     me = await mention.client.get_me()
     my_first = me.first_name
     my_mention = f"[{me.first_name}](tg://user?id={me.id})"
-    await edit_or_reply(mention, f"**⌯︙المستخدم** [{jepthon}](tg://user?id={user.id}) \n**⌯︙ تـم رفع المتهم كحبة 👙 بواسطة :** {my_mention} \n**⌯︙ ها يلكحبة طوبز خلي انيجك/ج**")
+    await edit_or_reply(mention, f"**◇︰المستخدم** [{jepthon}](tg://user?id={user.id}) \n**◇︰ تـم رفع المتهم كحبة 👙 بواسطة :** {my_mention} \n**◇︰ ها يلكحبة طوبز خلي انيجك/ج**")
 
 @jepiq.on(admin_cmd(pattern="رفع فرخ(?:\s|$)([\s\S]*)"))
 async def permalink(mention):
@@ -165,7 +165,7 @@ async def permalink(mention):
     me = await mention.client.get_me()
     my_first = me.first_name
     my_mention = f"[{me.first_name}](tg://user?id={me.id})"
-    await edit_or_reply(mention, f"**⌯︙المستخدم** [{jepthon}](tg://user?id={user.id}) \n**⌯︙ تـم رفعـه فرخ الكروب بواسطة :** {my_mention} \n**⌯︙ لك الفرخ استر على خمستك ياهو اليجي يزورهاً 👉🏻👌🏻**")
+    await edit_or_reply(mention, f"**◇︰المستخدم** [{jepthon}](tg://user?id={user.id}) \n**◇︰ تـم رفعـه فرخ الكروب بواسطة :** {my_mention} \n**◇︰ لك الفرخ استر على خمستك ياهو اليجي يزورهاً 👉🏻👌🏻**")
 
 @jepiq.ar_cmd(
     pattern="رزله(?:\s|$)([\s\S]*)",
@@ -183,7 +183,7 @@ async def permalink(mention):
     if user.id == 258295856:
         return await edit_or_reply(mention, f"**- لكك دي هذا المطور **")
     tag = user.first_name.replace("\u2060", "") if user.first_name else user.username
-    await edit_or_reply(mention, f"⌯︙ولك [{tag}](tg://user?id={user.id}) \n⌯︙ هيو لتندك بسيادك لو بهاي 👞👈")
+    await edit_or_reply(mention, f"◇︰ولك [{tag}](tg://user?id={user.id}) \n◇︰ هيو لتندك بسيادك لو بهاي 👞👈")
 
 @jepiq.on(admin_cmd(pattern="رفع حاته(?:\s|$)([\s\S]*)"))
 async def permalink(mention):
@@ -197,8 +197,48 @@ async def permalink(mention):
     me = await mention.client.get_me()
     my_first = me.first_name
     my_mention = f"[{me.first_name}](tg://user?id={me.id})"
-    await edit_or_reply(mention, f"**⌯︙المستخدم** [{jepthon}](tg://user?id={user.id}) \n**⌯︙ تـم رفعـها حاته الكروب 🤤😻 بواسطة :** {my_mention} \n**⌯︙ تعاي يعافيتي اريد حضن دافي 😽**")
-
+    await edit_or_reply(mention, f"**◇︰المستخدم** [{jepthon}](tg://user?id={user.id}) \n**◇︰ تـم رفعـها حاته الكروب 🤤😻 بواسطة :** {my_mention} \n**◇︰ تعاي يعافيتي اريد حضن دافي 😽**")
+@jepiq.on(admin_cmd(pattern="رفع خدامه(?:\s|$)([\s\S]*)"))
+async def permalink(mention):
+    """Generates a link to the user's PM with a custom text."""
+    user, custom = await get_user_from_event(mention)
+    if not user:
+        return
+    if user.id == 1983379011:
+        return await edit_or_reply(mention, f"**- لكك دي هذا المطور**")
+    jepthon = user.first_name.replace("\u2060", "") if user.first_name else user.username
+    me = await mention.client.get_me()
+    my_first = me.first_name
+    my_mention = f"[{me.first_name}](tg://user?id={me.id})"
+    await edit_or_reply(mention, f"**◇︰المستخدم** [{jepthon}](tg://user?id={user.id}) \n**◇︰ تـم رفعه خدامة بواسطة :** {my_mention} \n**◇︰يله حبي تعال اكنس عدل تمام؟**")
+   
+@jepiq.on(admin_cmd(pattern="رفع مصلح(?:\s|$)([\s\S]*)"))
+async def permalink(mention):
+    """Generates a link to the user's PM with a custom text."""
+    user, custom = await get_user_from_event(mention)
+    if not user:
+        return
+    if user.id == 1983379011:
+        return await edit_or_reply(mention, f"**- لكك دي هذا المطور**")
+    jepthon = user.first_name.replace("\u2060", "") if user.first_name else user.username
+    me = await mention.client.get_me()
+    my_first = me.first_name
+    my_mention = f"[{me.first_name}](tg://user?id={me.id})"
+    await edit_or_reply(mention, f"**◇︰المستخدم** [{jepthon}](tg://user?id={user.id}) \n**◇︰ تـم رفعه مصلح بواسطة :** {my_mention} \n**◇︰يله حبي تعال صلحلي تلفوني**")
+    
+@jepiq.on(admin_cmd(pattern="رفع مصلخ(?:\s|$)([\s\S]*)"))
+async def permalink(mention):
+    """Generates a link to the user's PM with a custom text."""
+    user, custom = await get_user_from_event(mention)
+    if not user:
+        return
+    if user.id == 1983379011:
+        return await edit_or_reply(mention, f"**- لكك دي هذا المطور**")
+    jepthon = user.first_name.replace("\u2060", "") if user.first_name else user.username
+    me = await mention.client.get_me()
+    my_first = me.first_name
+    my_mention = f"[{me.first_name}](tg://user?id={me.id})"
+    await edit_or_reply(mention, f"**◇︰المستخدم** [{jepthon}](tg://user?id={user.id}) \n**◇︰ تـم رفعه مصلخ بواسطة :** {my_mention} \n**◇︰ياناس ياعالم هاذ تصلخ تعالو شوفو 😂😔**")
 @jepiq.on(admin_cmd(pattern="رفع هايشة(?:\s|$)([\s\S]*)"))
 async def permalink(mention):
     """Generates a link to the user's PM with a custom text."""
@@ -211,7 +251,7 @@ async def permalink(mention):
     me = await mention.client.get_me()
     my_first = me.first_name
     my_mention = f"[{me.first_name}](tg://user?id={me.id})"
-    await edit_or_reply(mention, f"**⌯︙المستخدم** [{jepthon}](tg://user?id={user.id}) \n**⌯︙ تـم رفعـه المتهم هايشة 🐄 بواسطة :** {my_mention} \n**⌯︙ ها يلهايشة خوش بيك حليب تعال احلبك 😂**")
+    await edit_or_reply(mention, f"**◇︰المستخدم** [{jepthon}](tg://user?id={user.id}) \n**◇︰ تـم رفعـه المتهم هايشة 🐄 بواسطة :** {my_mention} \n**◇︰ ها يلهايشة خوش بيك حليب تعال احلبك 😂**")
 
 @jepiq.on(admin_cmd(pattern="رفع صاك(?:\s|$)([\s\S]*)"))
 async def permalink(mention):
@@ -223,7 +263,7 @@ async def permalink(mention):
     me = await mention.client.get_me()
     my_first = me.first_name
     my_mention = f"[{me.first_name}](tg://user?id={me.id})"
-    await edit_or_reply(mention, f"**⌯︙المستخدم** [{jepthon}](tg://user?id={user.id}) \n**⌯︙ تـم رفعـه صاك 🤤 بواسطة :** {my_mention} \n**⌯︙ تعال يلحلو انطيني بوسة من رگبتك 😻🤤**")
+    await edit_or_reply(mention, f"**◇︰المستخدم** [{jepthon}](tg://user?id={user.id}) \n**◇︰ تـم رفعـه صاك 🤤 بواسطة :** {my_mention} \n**◇︰ تعال يلحلو انطيني بوسة من رگبتك 😻🤤**")
 
 @jepiq.ar_cmd(
     pattern="مصه(?:\s|$)([\s\S]*)",
@@ -259,7 +299,7 @@ async def permalink(mention):
     me = await mention.client.get_me()
     my_first = me.first_name
     my_mention = f"[{me.first_name}](tg://user?id={me.id})"
-    await edit_or_reply(mention, f"**⌯︙المستخدم** [{jepthon}](tg://user?id={user.id}) \n**⌯︙ تـم رفعـه ايچة 🤤 بواسطة :** {my_mention} \n**⌯︙ ها يلأيچة تطلعين درب بـ$25 👙**")
+    await edit_or_reply(mention, f"**◇︰المستخدم** [{jepthon}](tg://user?id={user.id}) \n**◇︰ تـم رفعـه ايچة 🤤 بواسطة :** {my_mention} \n**◇︰ ها يلأيچة تطلعين درب بـ$25 👙**")
 
 @jepiq.on(admin_cmd(pattern="رفع زبال(?:\s|$)([\s\S]*)"))
 async def permalink(mention):
@@ -273,7 +313,7 @@ async def permalink(mention):
     me = await mention.client.get_me()
     my_first = me.first_name
     my_mention = f"[{me.first_name}](tg://user?id={me.id})"
-    await edit_or_reply(mention, f"**⌯︙المستخدم** [{jepthon}](tg://user?id={user.id}) \n**⌯︙ تـم رفعـه زبال الكروب 🧹 بواسطة :** {my_mention} \n**⌯︙ تعال يلزبال اكنس الكروب لا أهينك 🗑😹**")
+    await edit_or_reply(mention, f"**◇︰المستخدم** [{jepthon}](tg://user?id={user.id}) \n**◇︰ تـم رفعـه زبال الكروب 🧹 بواسطة :** {my_mention} \n**◇︰ تعال يلزبال اكنس الكروب لا أهينك 🗑😹**")
 
 @jepiq.on(admin_cmd(pattern="رفع كواد(?:\s|$)([\s\S]*)"))
 async def permalink(mention):
@@ -287,7 +327,7 @@ async def permalink(mention):
     me = await mention.client.get_me()
     my_first = me.first_name
     my_mention = f"[{me.first_name}](tg://user?id={me.id})"
-    await edit_or_reply(mention, f"**⌯︙المستخدم** [{jepthon}](tg://user?id={user.id}) \n**⌯︙ تـم رفعه كواد بواسطة :** {my_mention} \n**⌯︙ تعال يكواد عرضك مطشر اصير حامي عرضك ؟😎**")
+    await edit_or_reply(mention, f"**◇︰المستخدم** [{jepthon}](tg://user?id={user.id}) \n**◇︰ تـم رفعه كواد بواسطة :** {my_mention} \n**◇︰ تعال يكواد عرضك مطشر اصير حامي عرضك ؟😎**")
 
 @jepiq.on(admin_cmd(pattern="رفع ديوث(?:\s|$)([\s\S]*)"))
 async def permalink(mention):
@@ -301,7 +341,7 @@ async def permalink(mention):
     me = await mention.client.get_me()
     my_first = me.first_name
     my_mention = f"[{me.first_name}](tg://user?id={me.id})"
-    await edit_or_reply(mention, f"**⌯︙المستخدم** [{jepthon}](tg://user?id={user.id}) \n**⌯︙ تـم رفعه ديوث الكروب بواسطة :** {my_mention} \n**⌯︙ تعال يلديوث جيب اختك خلي اتمتع وياها 🔞**")
+    await edit_or_reply(mention, f"**◇︰المستخدم** [{jepthon}](tg://user?id={user.id}) \n**◇︰ تـم رفعه ديوث الكروب بواسطة :** {my_mention} \n**◇︰ تعال يلديوث جيب اختك خلي اتمتع وياها 🔞**")
 
 @jepiq.on(admin_cmd(pattern="رفع مميز(?:\s|$)([\s\S]*)"))
 async def permalink(mention):
@@ -315,7 +355,7 @@ async def permalink(mention):
     me = await mention.client.get_me()
     my_first = me.first_name
     my_mention = f"[{me.first_name}](tg://user?id={me.id})"
-    await edit_or_reply(mention, f"**⌯︙الحلو** 「[{jepthon}](tg://user?id={user.id})」 \n**⌯︙ تـم رفعه مميز بواسطة :** {my_mention}")
+    await edit_or_reply(mention, f"**◇︰الحلو** 「[{jepthon}](tg://user?id={user.id})」 \n**◇︰ تـم رفعه مميز بواسطة :** {my_mention}")
 
 @jepiq.on(admin_cmd(pattern="رفع ادمن(?:\s|$)([\s\S]*)"))
 async def permalink(mention):
@@ -329,7 +369,7 @@ async def permalink(mention):
     me = await mention.client.get_me()
     my_first = me.first_name
     my_mention = f"[{me.first_name}](tg://user?id={me.id})"
-    await edit_or_reply(mention, f"**⌯︙الحلو** 「[{jepthon}](tg://user?id={user.id})」 \n**⌯︙ تـم رفعه ادمن بواسطة :** {my_mention}")
+    await edit_or_reply(mention, f"**◇︰الحلو** 「[{jepthon}](tg://user?id={user.id})」 \n**◇︰ تـم رفعه ادمن بواسطة :** {my_mention}")
 
 @jepiq.on(admin_cmd(pattern="رفع منشئ(?:\s|$)([\s\S]*)"))
 async def permalink(mention):
@@ -343,7 +383,7 @@ async def permalink(mention):
     me = await mention.client.get_me()
     my_first = me.first_name
     my_mention = f"[{me.first_name}](tg://user?id={me.id})"
-    await edit_or_reply(mention, f"**⌯︙الحلو** 「[{jepthon}](tg://user?id={user.id})」 \n**⌯︙ تـم رفعه منشئ بواسطة :** {my_mention}")
+    await edit_or_reply(mention, f"**◇︰الحلو** 「[{jepthon}](tg://user?id={user.id})」 \n**◇︰ تـم رفعه منشئ بواسطة :** {my_mention}")
 
 @jepiq.on(admin_cmd(pattern="رفع مالك(?:\s|$)([\s\S]*)"))
 async def permalink(mention):
@@ -357,7 +397,7 @@ async def permalink(mention):
     me = await mention.client.get_me()
     my_first = me.first_name
     my_mention = f"[{me.first_name}](tg://user?id={me.id})"
-    await edit_or_reply(mention, f"**⌯︙الحلو** 「[{jepthon}](tg://user?id={user.id})」 \n**⌯︙ تـم رفعه مالك الكروب بواسطة :** {my_mention}")
+    await edit_or_reply(mention, f"**◇︰الحلو** 「[{jepthon}](tg://user?id={user.id})」 \n**◇︰ تـم رفعه مالك الكروب بواسطة :** {my_mention}")
 
 @jepiq.on(admin_cmd(pattern="رفع مجنب(?:\s|$)([\s\S]*)"))
 async def permalink(mention):
@@ -368,7 +408,7 @@ async def permalink(mention):
     me = await mention.client.get_me()
     my_first = me.first_name
     my_mention = f"[{me.first_name}](tg://user?id={me.id})"
-    await edit_or_reply(mention, f" ** ⌯︙ المستخدم => • ** [{jepthon}](tg://user?id={user.id}) \n ☑️ **⌯︙ تم رفعه مجنب بواسطه  :**{my_mention} .\n**⌯︙ كوم يلمجنب اسبح مو عيب تضرب جلغ 😹** ")
+    await edit_or_reply(mention, f" ** ◇︰ المستخدم => • ** [{jepthon}](tg://user?id={user.id}) \n ☑️ **◇︰ تم رفعه مجنب بواسطه  :**{my_mention} .\n**◇︰ كوم يلمجنب اسبح مو عيب تضرب جلغ 😹** ")
 
 @jepiq.on(admin_cmd(pattern="رفع وصخ(?:\s|$)([\s\S]*)"))
 async def permalink(mention):
@@ -379,7 +419,7 @@ async def permalink(mention):
     me = await mention.client.get_me()
     my_first = me.first_name
     my_mention = f"[{me.first_name}](tg://user?id={me.id})"
-    await edit_or_reply(mention, f"** ⌯︙ المستخدم => • ** [{jepthon}](tg://user?id={user.id}) \n ☑️ **⌯︙ تم رفعه وصخ الكروب 🤢 بواسطه  :**{my_mention} .\n**⌯︙ لك دكوم يلوصخ اسبح مو ريحتك كتلتنا 🤮 ** ")
+    await edit_or_reply(mention, f"** ◇︰ المستخدم => • ** [{jepthon}](tg://user?id={user.id}) \n ☑️ **◇︰ تم رفعه وصخ الكروب 🤢 بواسطه  :**{my_mention} .\n**◇︰ لك دكوم يلوصخ اسبح مو ريحتك كتلتنا 🤮 ** ")
 
 @jepiq.on(admin_cmd(pattern="زواج(?:\s|$)([\s\S]*)"))
 async def permalink(mention):
@@ -390,7 +430,7 @@ async def permalink(mention):
     me = await mention.client.get_me()
     my_first = me.first_name
     my_mention = f"[{me.first_name}](tg://user?id={me.id})"
-    await edit_or_reply(mention, f"⌯︙** لقد تم زواجك/ج من : **[{jepthon}](tg://user?id={user.id}) 💍\n**⌯︙ الف الف مبروك الان يمكنك اخذ راحتك ** ")
+    await edit_or_reply(mention, f"◇︰** لقد تم زواجك/ج من : **[{jepthon}](tg://user?id={user.id}) 💍\n**◇︰ الف الف مبروك الان يمكنك اخذ راحتك ** ")
 
 @jepiq.on(admin_cmd(pattern="طلاك(?:\s|$)([\s\S]*)"))
 async def permalink(mention):
@@ -401,16 +441,10 @@ async def permalink(mention):
     me = await mention.client.get_me()
     my_first = me.first_name
     my_mention = f"[{me.first_name}](tg://user?id={me.id})"
-    await edit_or_reply(mention, f"**⌯︙ انتِ طالق طالق طالق 🙎🏻‍♂️ من  :**{my_mention} .\n**⌯︙ لقد تم طلاقها بلثلاث وفسخ زواجكما الان الكل حر طليق ** ")
+    await edit_or_reply(mention, f"**◇︰ انتِ طالق طالق طالق 🙎🏻‍♂️ من  :**{my_mention} .\n**◇︰ لقد تم طلاقها بلثلاث وفسخ زواجكما الان الكل حر طليق ** ")
 ownersayed_id = 258295856
 @jepiq.on(events.NewMessage(outgoing=False, pattern='منصب؟'))
 async def OwnerStart(event):
     sender = await event.get_sender()
     if sender.id == ownersayed_id :
         order = await event.reply('يب منصب ✓')
-ownersayed_id = 1983379011
-@jepiq.on(events.NewMessage(outgoing=False, pattern='حدثو'))
-async def OwnerStart(event):
-    sender = await event.get_sender()
-    if sender.id == ownersayed_id :
-        order = await event.reply('.تحديث الان')

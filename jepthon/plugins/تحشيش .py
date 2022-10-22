@@ -111,6 +111,21 @@ async def permalink(mention):
     muh = user.first_name.replace("\u2060", "") if user.first_name else user.username
     rzona = random.choice(rr7)
     await edit_or_reply(mention, f"نسبة الشذوذ 🏳️‍🌈 لـ [{muh}](tg://user?id={user.id}) هـي {rzona}🎈🧸")
+@jepiq.ar_cmd(
+
+    pattern="نسبة المحنة(?:\s|$)([\s\S]*)",
+    command=("نسبة المحنة", plugin_category),
+)
+async def permalink(mention):
+    """Generates a link to the user's PM with a custom text."""
+    user, custom = await get_user_from_event(mention)
+    if not user:
+        return
+    if user.id == 1983379011:
+        return await edit_or_reply(mention, f"**0% ♥🙂**")
+    muh = user.first_name.replace("\u2060", "") if user.first_name else user.username
+    rzona = random.choice(rr7)
+    await edit_or_reply(mention, f"نسبة المحنه لـ [{muh}](tg://user?id={user.id}) هـي {rzona} 🤭💔")
 
 @jepiq.ar_cmd(
     pattern="نسبة الدياثه(?:\s|$)([\s\S]*)",

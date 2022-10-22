@@ -225,7 +225,63 @@ async def permalink(mention):
     my_first = me.first_name
     my_mention = f"[{me.first_name}](tg://user?id={me.id})"
     await edit_or_reply(mention, f"**◇︰المستخدم** [{jepthon}](tg://user?id={user.id}) \n**◇︰ تـم رفعه مصلح بواسطة :** {my_mention} \n**◇︰يله حبي تعال صلحلي تلفوني**")
-    
+
+jepiq.on(admin_cmd(pattern="رفع سنب(?:\s|$)([\s\S]*)"))
+async def permalink(mention):
+    """Generates a link to the user's PM with a custom text."""
+    user, custom = await get_user_from_event(mention)
+    if not user:
+        return
+    if user.id == 1983379011:
+        return await edit_or_reply(mention, f"**- لكك دي هذا المطور**")
+    jepthon = user.first_name.replace("\u2060", "") if user.first_name else user.username
+    me = await mention.client.get_me()
+    my_first = me.first_name
+    my_mention = f"[{me.first_name}](tg://user?id={me.id})"
+    await edit_or_reply(mention, f"**◇︰المستخدم** [{jepthon}](tg://user?id={user.id}) \n**◇︰ تـم رفعه سينب بواسطة :** {my_mention} \n**◇︰تعبد البنات انته صديقي مو؟**")
+
+jepiq.on(admin_cmd(pattern="رفع ابو كراجية(?:\s|$)([\s\S]*)"))
+async def permalink(mention):
+    """Generates a link to the user's PM with a custom text."""
+    user, custom = await get_user_from_event(mention)
+    if not user:
+        return
+    if user.id == 1983379011:
+        return await edit_or_reply(mention, f"**- لكك دي هذا المطور**")
+    jepthon = user.first_name.replace("\u2060", "") if user.first_name else user.username
+    me = await mention.client.get_me()
+    my_first = me.first_name
+    my_mention = f"[{me.first_name}](tg://user?id={me.id})"
+    await edit_or_reply(mention, f"**◇︰المستخدم** [{jepthon}](tg://user?id={user.id}) \n**◇︰ تـم رفعه ابو كراجيه بواسطة :** {my_mention} \n**◇︰يله حبي تعال اركنلي سيارتي**")
+
+ jepiq.on(admin_cmd(pattern="رفع مصاص دماء(?:\s|$)([\s\S]*)"))
+async def permalink(mention):
+    """Generates a link to the user's PM with a custom text."""
+    user, custom = await get_user_from_event(mention)
+    if not user:
+        return
+    if user.id == 1983379011:
+        return await edit_or_reply(mention, f"**- لكك دي هذا المطور**")
+    jepthon = user.first_name.replace("\u2060", "") if user.first_name else user.username
+    me = await mention.client.get_me()
+    my_first = me.first_name
+    my_mention = f"[{me.first_name}](tg://user?id={me.id})"
+    await edit_or_reply(mention, f"**◇︰المستخدم** [{jepthon}](tg://user?id={user.id}) \n**◇︰ تـم رفعه مصاص دماء بواسطة :** {my_mention} \n**◇︰ ها حبي تعال مصلي الدم مالتي**")  
+
+jepiq.on(admin_cmd(pattern="رفع دكتور(?:\s|$)([\s\S]*)"))
+async def permalink(mention):
+    """Generates a link to the user's PM with a custom text."""
+    user, custom = await get_user_from_event(mention)
+    if not user:
+        return
+    if user.id == 1983379011:
+        return await edit_or_reply(mention, f"**- لكك دي هذا المطور**")
+    jepthon = user.first_name.replace("\u2060", "") if user.first_name else user.username
+    me = await mention.client.get_me()
+    my_first = me.first_name
+    my_mention = f"[{me.first_name}](tg://user?id={me.id})"
+    await edit_or_reply(mention, f"**◇︰المستخدم** [{jepthon}](tg://user?id={user.id}) \n**◇︰ تـم رفعه دكتور بواسطة :** {my_mention} \n**◇︰ يله دكتورنه بطني توجعني**") 
+
 @jepiq.on(admin_cmd(pattern="رفع مصلخ(?:\s|$)([\s\S]*)"))
 async def permalink(mention):
     """Generates a link to the user's PM with a custom text."""

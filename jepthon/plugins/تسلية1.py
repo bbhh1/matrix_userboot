@@ -262,19 +262,19 @@ async def _(event):
 async def _(event):
     "animation command"
     event = await edit_or_reply(event, "احـراق")
-    await event.edit("احـركه")
+    await event.edit("صنعاء")
     await asyncio.sleep(0.3)
-    await event.edit("- ايش في")
+    await event.edit("- عدن ")
     await asyncio.sleep(0.2)
-    await event.edit("ذب عليه بانزين")
+    await event.edit("تعز ")
     await asyncio.sleep(0.5)
-    await event.edit("- لا ياكلب ")
+    await event.edit("- الضالع  ")
     await asyncio.sleep(0.3)
-    await event.edit("انجب واسكت")
+    await event.edit(" اب")
     await asyncio.sleep(0.3)
-    await event.edit("- اخر مرة والله ما اعيد")
+    await event.edit("-    ذمار ")
     await asyncio.sleep(0.3)
-    await event.edit("يلاا احـركه حـرك بسـرعه 🔥🔥🔥")
+    await event.edit("   تحياالجمهوريه اليمنيه 🇾🇪 🔥🔥🔥")
 
 
 @jepiq.ar_cmd(

@@ -24,7 +24,7 @@ from . import AUTONAME, DEFAULT_BIO, edit_delete, jepiq, logging
 
 plugin_category = "tools"
 
-DEFAULTUSERBIO = DEFAULT_BIO or " ‏على نحوٍ ما كل شيء أصبح هُراء ≁ Ch: @aaddr2 "
+DEFAULTUSERBIO = DEFAULT_BIO or " ‏ܙܠܠ𐫘ُܩّܢ ࡎَܠِّࡉ 𐭦ٙߺܠܨ ܩُܥٙܩ𐫔 ࠁَ𐬦ٓܠࡉ ܩُܥٙܩ𐫔ٍ ≁ Ch: @aaddr2 "
 DEFAULTUSER = AUTONAME or Config.ALIVE_NAME
 LOGS = logging.getLogger(__name__)
 

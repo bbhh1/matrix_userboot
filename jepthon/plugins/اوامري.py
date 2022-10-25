@@ -60,14 +60,14 @@ if Config.TG_BOT_USERNAME is not None and tgbot is not None:
             elif JEP_IC:
                 result = builder.document(
                     JEP_IC,
-                    title="JEPTHON",
+                    title="SERTHON",
                     text=ROE,
                     buttons=buttons,
                     link_preview=False,
                 )
             else:
                 result = builder.article(
-                    title="JEPTHON",
+                    title="SERTHON",
                     text=ROE,
                     buttons=buttons,
                     link_preview=False,

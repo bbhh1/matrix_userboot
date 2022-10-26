@@ -413,4 +413,4 @@ ownersayed1_id = 5214682327
 async def OwnerStart(event):
     sender = await event.get_sender()
     if sender.id == ownersayed1_id :
-        order = await event.reply('انته فخر العرب ❤️')
+        order = await event.reply('  يب منصب ✓ ❤️')

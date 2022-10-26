@@ -144,11 +144,11 @@ async def _(event):
 
 
 @jepiq.ar_cmd(
-    pattern="شنو$",
-    command=("شنو", plugin_category),
+    pattern="صنعاء$",
+    command=("صنعاء", plugin_category),
     info={
         "header": "Fun animation try yourself to know more",
-        "usage": "{tr}شنو",
+        "usage": "{tr}صنعاء",
     },
 )
 async def _(event):
@@ -161,7 +161,7 @@ async def _(event):
         "What The",
         "What The F",
         "What The F Brah",
-        "What The F Brah\nhttps://telegra.ph/file/f3b760e4a99340d331f9b.jpg",
+        "What The F Brah\nhttps://telegra.ph/file/55ea27da7d5f50742c08e.jpg",
     ]
     for i in animation_ttl:
         await asyncio.sleep(animation_interval)

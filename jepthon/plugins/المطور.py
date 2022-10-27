@@ -44,6 +44,7 @@ async def amireallyalive(event):
         CAT = [x for x in CAT_IMG.split()]
         A_IMG = list(CAT)
         PIC = random.choice(A_IMG)
+        cat_caption = f"للتهور جنون وللقيادة فنون وللتهكير رجل مجنون
         cat_caption = f"مطور سيرثون العرب\n"
         cat_caption += f"✛━━━━━━━━━━━━━✛\n"
         cat_caption += f"- امير: @amiraikb\n"

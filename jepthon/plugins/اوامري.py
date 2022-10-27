@@ -51,6 +51,11 @@ if Config.TG_BOT_USERNAME is not None and tgbot is not None:
                 [
                     Button.inline("♰ الأكستـرا ♰", data="iiers"),
                     Button.inline("♰ الانتحال والتقليد ♰", data="uscuxrz"),
+                ], 
+                ] 
+                    Button.inline("♰ خاص في امير  ♰", data="iiers"),
+                    Button.inline("♰ اوامر خاص في امير ♰", data="uscuxrz"),
+                    
                 ],
             ]
             if JEP_IC and JEP_IC.endswith((".jpg", ".png", "gif", "mp4")):

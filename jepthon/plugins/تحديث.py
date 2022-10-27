@@ -255,7 +255,7 @@ async def upstream(event):
     # Special case for deploy
     if changelog == "" and not force_update:
         await event.edit(
-            "**᯽︙ 🤍 لا توجد تحديثات الى الان **\n"
+            "**᯽︙ 💔 لا توجد تحديثات الى الان **\n"
         )
         return repo.__del__()
     if conf == "" and not force_update:
